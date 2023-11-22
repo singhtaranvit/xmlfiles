@@ -267,7 +267,8 @@
 					<version>3.2.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>testng_Rediff_Para.xml</suiteXmlFile>
+							<suiteXmlFile>testng_rediff_screenshots.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
