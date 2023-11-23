@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Rediff Para Suite]" guice-stage="DEVELOPMENT">
   <parameter name="password" value="Selenium@123"/>
   <parameter name="usernamelocator" value="login1"/>
@@ -7,12 +7,12 @@
   <parameter name="passwordlocator" value="password"/>
   <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
   <parameter name="username" value="seleniumpanda@rediffmail.com"/>
-  <test name="Rediff Para Test(failed)">
+  <test thread-count="5" name="Rediff Para Test(failed)">
     <classes>
       <class name="com.parametrization.Rediff_Parametrization">
         <methods>
-          <include name="rediffLogout"/>
           <include name="tearDown"/>
+          <include name="rediffLogout" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.parametrization.Rediff_Parametrization -->
     </classes>

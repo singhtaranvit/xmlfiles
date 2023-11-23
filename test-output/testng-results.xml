@@ -1,91 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-22T21:29:28Z" name="Suite" finished-at="2023-11-22T21:30:30Z" duration-ms="62295">
+  <suite started-at="2023-11-22T22:57:01 MST" name="Rediff Para Suite" finished-at="2023-11-22T22:57:43 MST" duration-ms="41871">
     <groups>
     </groups>
-    <test started-at="2023-11-22T21:29:28Z" name="Test" finished-at="2023-11-22T21:30:30Z" duration-ms="62295">
-      <class name="com.screenshot.recording.rediff_test_scenarios_screenshots">
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:29:36Z" name="openUrl" finished-at="2023-11-22T14:29:42Z" duration-ms="6466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="clickOnSignInLink()[pri:1, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:29:42Z" name="clickOnSignInLink" finished-at="2023-11-22T14:29:47Z" duration-ms="5183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnSignInLink -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:29:47Z" name="tearDown" finished-at="2023-11-22T14:29:48Z" duration-ms="568" status="PASS">
+    <test started-at="2023-11-22T22:57:01 MST" name="Rediff Para Test" finished-at="2023-11-22T22:57:43 MST" duration-ms="41871">
+      <class name="com.parametrization.Rediff_Parametrization">
+        <test-method signature="rediffLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.parametrization.Rediff_Parametrization@4afcd809]" started-at="2023-11-22T22:57:01 MST" name="rediffLogin" finished-at="2023-11-22T22:57:21 MST" duration-ms="19983" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnSignInLink status=SUCCESS method=rediff_test_scenarios_screenshots.clickOnSignInLink()[pri:1, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66] output={null}]]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://mail.rediff.com/cgi-bin/login.cgi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[login1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.parametrization.Rediff_Parametrization@4afcd809]" started-at="2023-11-22T22:57:21 MST" name="tearDown" finished-at="2023-11-22T22:57:22 MST" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rediffLogin status=SUCCESS method=Rediff_Parametrization.rediffLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.parametrization.Rediff_Parametrization@4afcd809] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:29:48Z" name="openUrl" finished-at="2023-11-22T14:29:52Z" duration-ms="3904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="enterCredentials()[pri:2, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:29:52Z" name="enterCredentials" finished-at="2023-11-22T14:30:04Z" duration-ms="12531" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterCredentials -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:30:04Z" name="tearDown" finished-at="2023-11-22T14:30:05Z" duration-ms="668" status="PASS">
+        <test-method signature="rediffLogout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.parametrization.Rediff_Parametrization@4afcd809]" started-at="2023-11-22T22:57:22 MST" name="rediffLogout" finished-at="2023-11-22T22:57:42 MST" duration-ms="20700" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterCredentials status=SUCCESS method=rediff_test_scenarios_screenshots.enterCredentials()[pri:2, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66] output={null}]]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://mail.rediff.com/cgi-bin/login.cgi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[login1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.parametrization.Rediff_Parametrization@4afcd809]" started-at="2023-11-22T22:57:42 MST" name="tearDown" finished-at="2023-11-22T22:57:43 MST" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rediffLogout status=SUCCESS method=Rediff_Parametrization.rediffLogout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.parametrization.Rediff_Parametrization@4afcd809] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:30:05Z" name="openUrl" finished-at="2023-11-22T14:30:13Z" duration-ms="8488" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="clickOnSignInButton()[pri:3, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:30:13Z" name="clickOnSignInButton" finished-at="2023-11-22T14:30:29Z" duration-ms="16000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnSignInButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66]" started-at="2023-11-22T14:30:29Z" name="tearDown" finished-at="2023-11-22T14:30:30Z" duration-ms="399" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickOnSignInButton status=SUCCESS method=rediff_test_scenarios_screenshots.clickOnSignInButton()[pri:3, instance:com.screenshot.recording.rediff_test_scenarios_screenshots@7fa98a66] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.screenshot.recording.rediff_test_scenarios_screenshots -->
-      <class name="com.screenshot.recording.ScreenRecordingTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screenshot.recording.ScreenRecordingTestCase@15ff3e9e]" started-at="2023-11-22T14:29:28Z" name="setup" finished-at="2023-11-22T14:29:29Z" duration-ms="1636" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="navigationTest()[pri:0, instance:com.screenshot.recording.ScreenRecordingTestCase@15ff3e9e]" started-at="2023-11-22T14:29:29Z" name="navigationTest" finished-at="2023-11-22T14:29:34Z" duration-ms="5343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigationTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.screenshot.recording.ScreenRecordingTestCase@15ff3e9e]" started-at="2023-11-22T14:29:34Z" name="tearDown" finished-at="2023-11-22T14:29:36Z" duration-ms="1095" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=navigationTest status=SUCCESS method=ScreenRecordingTestCase.navigationTest()[pri:0, instance:com.screenshot.recording.ScreenRecordingTestCase@15ff3e9e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.screenshot.recording.ScreenRecordingTestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.parametrization.Rediff_Parametrization -->
+    </test> <!-- Rediff Para Test -->
+  </suite> <!-- Rediff Para Suite -->
 </testng-results>
